@@ -1,3 +1,4 @@
+/* You can add global styles to this file, and also import other style files */
 * {
   margin: 0;
   padding: 0;
@@ -5,12 +6,12 @@
 
 @font-face {
   font-family: 'Gilroy';
-  src: url('../assets/fonts/Gilroy-Semibold.ttf');
+  src: url('./assets/fonts/Gilroy-Semibold.ttf');
 }
 
 @font-face {
   font-family: 'Merriweather';
-  src: url('../assets/fonts/Merriweather-Black.ttf');
+  src: url('./assets/fonts/Merriweather-Black.ttf');
 }
 
 body {
@@ -58,7 +59,7 @@ body {
 
 .main {
   overflow: hidden;
-  background-image: url('../assets/images/main_bg.png');
+  background-image: url('./assets/images/main_bg.png');
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -158,7 +159,7 @@ body {
 }
 
 .why {
-  background-image: url('../assets/images/whybg.png');
+  background-image: url('./assets/images/whybg.png');
   background-position: top center;
   background-repeat: no-repeat;
   background-size: initial;
@@ -188,7 +189,7 @@ body {
 }
 
 .products {
-  background-image: url('../assets/images/burgers_bg.png');
+  background-image: url('./assets/images/burgers_bg.png');
   background-position: top center;
   background-repeat: no-repeat;
   background-size: 1400px;
@@ -259,7 +260,7 @@ body {
 }
 
 .order {
-  background-image: url('../images/order_bg.png');
+  background-image: url('./assets/images/order_bg.png');
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 180px;
