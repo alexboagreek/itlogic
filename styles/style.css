@@ -42,6 +42,12 @@ body {
   color: #191411;
 }
 
+.button:disabled {
+  cursor: not-allowed;
+  color: gray;
+  background-color: #343434;
+}
+
 .common-title {
   font-family: 'Merriweather', sans-serif;
   font-size: 64px;
